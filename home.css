@@ -1,0 +1,64 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+
+.img{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.Banana{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    background: white;
+    padding: 7px;
+    padding-left: 100px;
+}
+
+.Carrot{
+  position: absolute;
+  top:190px;
+  left: 389px;
+  background: white;
+  padding: 7px;
+  padding-left: 130px;
+
+
+}
+
+.Orange{
+  position: absolute;
+  top: 190px;
+  left: 700px;
+  background: white;
+  padding: 7px;
+  padding-left: 102px;
+    
+}
+
+.lemon{
+  position: absolute;
+  top: 190px;
+  left: 990px;
+  background: white;
+  padding: 7px;
+  padding-left: 130px;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: 2s;
+}
